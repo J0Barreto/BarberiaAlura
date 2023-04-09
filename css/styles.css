@@ -146,8 +146,8 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    margin: 0 1.2%;
+    padding: 20px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -167,7 +167,7 @@ nav a:hover{
 }
 
 .productos li:hover h2 {
-    font-size: 33px;
+    font-size: 31px;
 }
 
 .producto-descripcion {
@@ -254,7 +254,7 @@ td, th {
 
 
 @media screen and (max-width:940px){
-    .caja, .principal, .mapa-ubicacion, .contenido-diferenciales,.video {
+    .caja, .principal, .mapa-ubicacion, .contenido-diferenciales,.video, .main-contacto {
         width: 100vw;
     }
     h1 { 
@@ -269,6 +269,21 @@ td, th {
     .lista-diferenciales, .imagen-diferenciales {
         width: 100%;
     }
+
+    .productos {
+        margin: 0;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .productos li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+
 }
 
 
